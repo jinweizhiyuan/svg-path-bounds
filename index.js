@@ -2,8 +2,10 @@
 
 var parse = require('parse-svg-path')
 var abs = require('abs-svg-path')
-var normalize = require('normalize-svg-path')
-var isSvgPath = require('is-svg-path')
+import normalize from 'normalize-svg-path'
+// var normalize = require('normalize-svg-path')
+// var assert = require('assert')
+import { assert } from 'chai'
 
 module.exports = pathBounds
 
