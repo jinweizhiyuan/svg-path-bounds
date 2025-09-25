@@ -1,6 +1,6 @@
 {
   "name": "svg-path-bounds-hq",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get bounding box of an svg path data",
   "exports": {
     "import": "./index.mjs",
