@@ -1,9 +1,13 @@
 'use strict'
 
-var parse = require('parse-svg-path')
-var abs = require('abs-svg-path')
-var normalize = require('normalize-svg-path')
-var isSvgPath = require('is-svg-path')
+import parse from 'parse-svg-path'
+// var parse = require('parse-svg-path')
+import abs from 'abs-svg-path'
+// var abs = require('abs-svg-path')
+import normalize from 'normalize-svg-path'
+// var normalize = require('normalize-svg-path')
+import isSvgPath from 'is-svg-path'
+// var isSvgPath = require('is-svg-path')
 
 export default pathBounds
 
