@@ -2,7 +2,10 @@
   "name": "svg-path-bounds-hq",
   "version": "1.0.2",
   "description": "Get bounding box of an svg path data",
-  "main": "index.js",
+  "exports": {
+    "import": "./index.mjs",
+    "require": "./index.cjs"
+  },
   "types": "index.d.td",
   "scripts": {
     "test": "node test"
@@ -29,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dfcreative/svg-path-bounds.git"
+    "url": "git+https://github.com/jinweizhiyuan/svg-path-bounds.git"
   },
   "bugs": {
-    "url": "https://github.com/dfcreative/svg-path-bounds/issues"
+    "url": "https://github.com/jinweizhiyuan/svg-path-bounds/issues"
   },
-  "homepage": "https://github.com/dfcreative/svg-path-bounds#readme",
+  "homepage": "https://github.com/jinweizhiyuan/svg-path-bounds#readme",
   "devDependencies": {
     "tape": "^4.7.0"
   }
